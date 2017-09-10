@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "SConstruct": "python",
+        "iostream": "cpp"
+    },
+       
+    "projectname":"project_cgui",   //project name
+    "development_mode":"debug",     //development build mode
+    "output_dir":"bin",             //out put bin builds
+    "output_program":"project_cgui" //default without the application execute without ext file
+
+}

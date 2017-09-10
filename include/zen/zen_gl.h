@@ -820,7 +820,7 @@ ZGLDEF void zgl_bs_initialize(ZGLBasicState *bs) {
 
 	// turn on debugging
 	glEnable(GL_DEBUG_OUTPUT); 
-	glDebugMessageCallback(zgl_error_callback, NULL);
+	//glDebugMessageCallback(zgl_error_callback, NULL);
 	glDebugMessageControl(GL_DONT_CARE, GL_DONT_CARE, GL_DEBUG_SEVERITY_NOTIFICATION, 0, 0, GL_FALSE);
 
 	glGenVertexArrays(1, &bs->vao);
